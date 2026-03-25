@@ -1,0 +1,47 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconGradientT" x1="90" y1="90" x2="290" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86FFC0"/>
+      <stop offset="1" stop-color="#19C96B"/>
+    </linearGradient>
+    <linearGradient id="glassGradientT" x1="40" y1="40" x2="360" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#11271B" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#07110B" stop-opacity="0.5"/>
+    </linearGradient>
+    <filter id="iconGlowT" x="0" y="0" width="400" height="400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18" result="effect1_foregroundBlur"/>
+    </filter>
+    <filter id="greenTextGlowT" x="980" y="128" width="290" height="150" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#iconGlowT)">
+    <rect x="70" y="110" width="250" height="250" rx="54" fill="url(#glassGradientT)" stroke="#1D4A31" stroke-width="2"/>
+    <path d="M150 180L105 235L150 290" stroke="url(#iconGradientT)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M240 180L285 235L240 290" stroke="url(#iconGradientT)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M210 165L180 305" stroke="url(#iconGradientT)" stroke-width="18" stroke-linecap="round"/>
+  </g>
+
+  <circle cx="259" cy="145" r="88" fill="#27E07D" fill-opacity="0.08"/>
+  <circle cx="1265" cy="138" r="92" fill="#27E07D" fill-opacity="0.05"/>
+
+  <text x="395" y="278" fill="#F5FFF8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="138" font-weight="700" letter-spacing="-5">
+    Sanjay
+  </text>
+
+  <g filter="url(#greenTextGlowT)">
+    <text x="995" y="278" fill="#58FFA5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="138" font-weight="700" letter-spacing="-5">
+      .dev
+    </text>
+  </g>
+
+  <rect x="398" y="320" width="418" height="2" fill="#123422"/>
+  <text x="398" y="372" fill="#7FA590" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="2.4">
+    AI • WEB • FULL STACK
+  </text>
+</svg>

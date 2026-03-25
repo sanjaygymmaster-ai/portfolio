@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="favIconT" x1="150" y1="152" x2="358" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#93FFCA"/>
+      <stop offset="0.55" stop-color="#33E584"/>
+      <stop offset="1" stop-color="#00B6A6"/>
+    </linearGradient>
+    <filter id="favGlowT" x="84" y="84" width="344" height="344" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18" result="effect1_foregroundBlur"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#favGlowT)">
+    <path d="M208 170L142 256L208 342" stroke="url(#favIconT)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M304 170L370 256L304 342" stroke="url(#favIconT)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M280 138L232 374" stroke="url(#favIconT)" stroke-width="24" stroke-linecap="round"/>
+  </g>
+</svg>
